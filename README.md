@@ -1,2 +1,24 @@
-# Reporting-validation-systems
-A reporting validation framework designed to detect structural data issues before automated dashboards and reporting pipelines run. Includes Google Sheets structure validation, row integrity checks, workflow monitoring, and automated reporting safeguards built with Python and Databricks.
+
+# Google Sheets Structure Checker
+
+A Databricks/Python validation tool designed to compare weekly Google Sheets reporting structures before dashboard automation runs.
+
+## Purpose
+
+The checker detects structural changes between reporting weeks that could break downstream Excel or reporting automations.
+
+## Current Features
+
+- Multi-brand Google Sheets validation
+- Dynamic weekly comparisons
+- Brand-specific structure rules
+- Row-count integrity checks
+- Error handling and mismatch detection
+
+## Planned Features
+
+- Automated alerting
+- Databricks table logging
+- Power BI integration
+- Historical change tracking
+- Workflow monitoring dashboards
